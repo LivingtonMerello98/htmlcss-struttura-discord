@@ -24,6 +24,19 @@ header{
 }
 
 
+.col-25{
+    width: 25%;
+    height:30px;
+    border:1px dotted black;
+}
+
+.col-50{
+    width: 50%;
+    height:30px;
+    border:1px dotted black;
+}
+
+
 
 /* utility class */
 
