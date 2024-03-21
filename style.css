@@ -95,8 +95,22 @@ header{
 .bg-dark-grey{
     background-color: #23272A;
 }
+.bg-light-green{
+    background-color: #20B2AA;
+}
+.bg-light-coral{
+    background-color: #F08080;
+}
 
 
 .py-20{
     padding: 20px 0;
+}
+.py-5{
+    padding-top: 5px; 
+    padding-bottom: 20px; 
+}
+
+.m-bottom-line{
+    margin-bottom: 1px dotted white;
 }
