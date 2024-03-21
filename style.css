@@ -1,30 +1,36 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-size;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
-header{
+header {
     background-color: #ADD8E6;
     padding: 10px 0px;
 }
 
-
 /* layout class*/
-.height-xl{
-    height:500px;
-}
-.height-l{
-    height:300px;
-}
-.height-m{
-    height:100px;
-}
-.height-sm{
-    height:30px;
+.f-grow {
+    flex-grow: 2;
 }
 
-.container{
+.height-xl {
+    height: 500px;
+}
+
+.height-l {
+    height: 300px;
+}
+
+.height-m {
+    height: 100px;
+}
+
+.height-sm {
+    height: 30px;
+}
+
+.container {
     max-width: 1200px;
     margin: 30px auto;
 }
@@ -34,100 +40,115 @@ header{
     margin: 30px auto;
 }
 
-.row{
-    display:flex;
-    display:wrap;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.space-evenly{
+.space-evenly {
     justify-content: space-evenly;
 }
-.space-between{
+
+.space-between {
     justify-content: space-between;
 }
 
-.a-center{
-    align-items:center;
-}
-.j-center{
-    justify-content:center;
+.a-center {
+    align-items: center; 
 }
 
-.a-content-center{
-    align-content:center;
+.j-center {
+    justify-content: center;
 }
 
+.a-content-center {
+    align-content: center; 
+}
+/* classe da rimuovere*/
+.col-20,
+.col-25,
+.col-30,
+.col-50,
+.col-70,
+.col-100 {
+    border: 1px dotted black;
+}
 
-.col-20{
+.col-20 {
     width: 20%;
-    border:1px dotted black;
 }
-.col-25{
+
+.col-25 {
     width: 25%;
-    border:1px dotted black;
 }
 
-.col-30{
-    width: 30%;
-    border:1px dotted black;
+.col-30 {
+    width: calc(30% - 1px);
 }
-.col-50{
+
+.col-50 {
     width: 50%;
-    border:1px dotted black;
 }
-.col-70{
-    width: 70%;
-    border:1px dotted black;
+
+.col-70 {
+    width: calc(70% - 1px);
 }
-.col-100{
+
+.col-100 {
     width: 100%;
-    border:1px dotted black;
 }
-
-
 
 /* utility class */
 
-.bg-orange{
-    background-color: #DAA520 ;
+.bg-orange {
+    background-color: #DAA520;
 }
-.bg-blue{
-    background-color: #00008B ;
+
+.bg-blue {
+    background-color: #00008B;
 }
-.bg-magenta{
-    background-color: #EE82EE ;
+
+.bg-magenta {
+    background-color: #EE82EE;
 }
-.bg-dodger-blue{
+
+.bg-dodger-blue {
     background-color: #1E90FF;
 }
-.bg-pink{
+
+.bg-pink {
     background-color: #FFC0CB;
 }
-.bg-grey{
+
+.bg-grey {
     background-color: #D3D3D3;
 }
-.bg-green{
+
+.bg-green {
     background-color: #228B22;
 }
-.bg-dark-grey{
+
+.bg-dark-grey {
     background-color: #23272A;
 }
-.bg-light-green{
+
+.bg-light-green {
     background-color: #20B2AA;
 }
-.bg-light-coral{
+
+.bg-light-coral {
     background-color: #F08080;
 }
 
-
-.py-20{
+.py-20 {
     padding: 20px 0;
 }
-.py-5{
-    padding-top: 5px; 
-    padding-bottom: 20px; 
+
+.py-5 {
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
-.m-bottom-line{
+.m-bottom-line {
     margin-bottom: 1px dotted white;
 }
