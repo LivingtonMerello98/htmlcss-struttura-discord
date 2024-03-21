@@ -37,7 +37,24 @@ header{
 .row{
     display:flex;
     display:wrap;
-    background-color:red;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.a-center{
+    align-items:center;
+}
+.j-center{
+    justify-content:center;
+}
+
+.a-content-center{
+    align-content:center;
 }
 
 
