@@ -12,6 +12,9 @@ header{
 
 /* layout class*/
 .height-xl{
+    height:500px;
+}
+.height-l{
     height:300px;
 }
 .height-m{
@@ -38,6 +41,10 @@ header{
 }
 
 
+.col-20{
+    width: 20%;
+    border:1px dotted black;
+}
 .col-25{
     width: 25%;
     border:1px dotted black;
@@ -81,6 +88,12 @@ header{
 }
 .bg-grey{
     background-color: #D3D3D3;
+}
+.bg-green{
+    background-color: #228B22;
+}
+.bg-dark-grey{
+    background-color: #23272A;
 }
 
 
