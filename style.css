@@ -3,3 +3,30 @@
     padding:0;
     box-sizing: border-size;
 }
+
+header{
+    background-color: #ADD8E6;
+    margin-bottom:30px;
+    padding: 10px 0px;
+}
+
+
+/* layout class*/
+.container{
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.row{
+    display:flex;
+    display:wrap;
+    background-color:red;
+}
+
+
+
+/* utility class */
+
+.bg-orange{
+    background-color: #DAA520 ;
+}
