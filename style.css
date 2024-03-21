@@ -6,14 +6,28 @@
 
 header{
     background-color: #ADD8E6;
-    margin-bottom:30px;
     padding: 10px 0px;
 }
 
 
 /* layout class*/
+.height-xl{
+    height:300px;
+}
+.height-m{
+    height:100px;
+}
+.height-sm{
+    height:30px;
+}
+
 .container{
     max-width: 1200px;
+    margin: 30px auto;
+}
+
+.container-sm {
+    max-width: 990px;
     margin: 30px auto;
 }
 
@@ -26,13 +40,16 @@ header{
 
 .col-25{
     width: 25%;
-    height:30px;
     border:1px dotted black;
 }
 
 .col-50{
     width: 50%;
-    height:30px;
+    border:1px dotted black;
+}
+
+.col-100{
+    width: 100%;
     border:1px dotted black;
 }
 
@@ -42,4 +59,16 @@ header{
 
 .bg-orange{
     background-color: #DAA520 ;
+}
+.bg-blue{
+    background-color: #00008B ;
+}
+.bg-magenta{
+    background-color: #EE82EE ;
+}
+
+
+
+.py-20{
+    padding: 20px 0;
 }
